@@ -14,6 +14,6 @@ This project is for learning and if you want to take anything fell free to do so
   <a href="https://github.com/Theo3010/Unilogin-Autocomplete/files/7594953/Extensions.zip" target="_blank">her</a>.
   <br>
   When you have download the file go to 
-  <a href="chrome://extensions/" target="_blank">chrome://extensions/</a>
+  <u>chrome://extensions/</u>
   and click the "developer mode" on the right corner and then the "load unpacked extension" in the left corner and slected the file. Make sure to unzip the file first.
 </span>
