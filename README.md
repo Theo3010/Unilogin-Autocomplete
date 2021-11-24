@@ -2,7 +2,7 @@
 An Chrome extensions to autocomplete unilogin.
 
 <h1>Development</h1>
-<span>I haven't worked a lot with Chrome extension. So if you have any improvment fell free to make a PR.</span>
+<span>I haven't worked a lot with Chrome extension nor javascript/html. So if you have any improvment fell free to make a PR.</span>
 
 <h1>License</h1>
 This project is for learning and if you want to take anything fell free to do so. ON OWN RESPONSIBILITY.
