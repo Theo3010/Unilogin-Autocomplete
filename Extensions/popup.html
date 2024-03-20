@@ -1,0 +1,96 @@
+<head>
+    <style>
+        img {
+            width: 64px;
+        }
+        .logo {
+            margin: auto;
+            align-items: center;
+            padding: 10px;
+            font-family: Monospace;
+            
+        }
+
+        .logo-icon {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 64px;
+        }
+
+        .login {
+            font-family: monospace;
+            font-size: 16px;
+        }
+
+        .Autocomplete {
+            padding-bottom: 10px;
+            padding-top: 5;
+        }
+
+        .password {
+            padding-bottom: 13px;
+        }
+
+        .username {
+            padding-bottom: 20px;
+        }
+
+        .save {
+            margin: auto;
+            position: relative;
+            right: 75%;
+            left: 25%;
+        }
+
+        .save-btn {
+            background-color: #0059b3;
+            border-color: #0059b3;
+            border-radius: 100px;
+            block-size: 24px;
+            font-family: monospace;
+            color: white;
+            width: 50%;
+        }
+
+        .save-btn:hover {
+            filter: brightness(82%);
+            cursor: pointer;
+        }
+
+        .save-btn:active {
+            border-color: gray;
+            box-shadow: 2px 2px 2px #aaa;
+        }
+    </style>
+    
+</head>
+
+<body>
+    <div class="header">
+        <h1 class="logo">
+            <img src="images/icon_128.png" alt="Unilogin Logo" class="logo-icon">
+            <span><span style="color: 0070C0">Uni</span>login <span style="color: 0070C0">Auto</span>complete</span>
+        </img>
+        </h1>
+    </div>        
+    <hr style="border: 5; border-color: 0070C0;">
+    <div class="login">
+        <div class="Autocomplete">
+            <span>Autocomplete: </span>
+            <input type="checkbox" id="Autocomplete">
+        </div>
+        <div class="username">
+            <span>Username:</span>
+            <input type="text" name="username" id="username"></input>
+        </div>
+        <div class="password">
+            <span>Password:</span>
+            <input type="password" name="password" id="password"></input> 
+        </div>
+        <div class="save">
+            <button type="submit" class="save-btn" name="save" id="save">Save</button>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
